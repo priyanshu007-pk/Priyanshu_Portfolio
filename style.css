@@ -1,12 +1,15 @@
-.upper{
-    border:5px black solid;
-    border-radius: 10px;;
+.top{
+    width:50%;
 }
-#top{
-    
-    text-align: center;
+.hero-img {
+    width: 40%;
+     display: flex;
+    justify-content: center;
 }
 
-.section{
-    align-items: left;
+.hero-img img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
 }
