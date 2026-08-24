@@ -1,5 +1,11 @@
+.main-hero{
+    border:black solid 5px;
+}
+.hero-name{
+    font-size: xx-large;
+}
 .top{
-    width:50%;
+    width:400px;
 }
 .hero-img {
     width: 40%;
