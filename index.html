@@ -14,26 +14,26 @@
 
             <ul class="nav-links">
                 <li>
-                    <a href="#about">About</a>
+                   <button id="btn"> <a href="#about">About</a></button>
                 </li>
 
                 <li>
-                    <a href="#skills">Skills</a>
+                    <button id="btn"><a href="#skills">Skills</a></button>
                 </li>
 
                 <li>
-                    <a href="#projects">Projects</a>
+                   <button id="btn"> <a href="#projects">Projects</a></button>
                 </li>
 
                 <li>
-                    <a href="#contact">Contact</a>
+                  <button id="btn">  <a href="#contact">Contact</a></button>
                 </li>
             </ul>
-
         </nav>
     </header>
+    <div id="body-content">
     <section class="section">
-   <div class="main-hero">
+   <div id="cover" class="main-hero">
     <div id="top">
     <h3>Hi! I am</h3>
     
@@ -41,7 +41,7 @@
     <h3>Computer Science and Engineering Student</h3>
    
     </div>
-<div class="hero-img">
+<div id="cover" class="hero-img">
      <img  src="me.jpeg" alt="priyanshu">
 </div>
 
@@ -50,27 +50,58 @@
     <div class="section">
     <Secton id="about">
         <h3>About:</h3>
-        <p>I am a third year btech student from Galgotias Univerity. 
-            I have worked on projects related to web devlopment where ,
-            I  learn how an idea can be turn into a reak world solution.
-             I have a great interest in Artificial Intelligence and Machine Learning. 
-            I aspire to learn new age technology and work as a software devloper. </p>
-    </Secton><hr>
-    <section id="skills">
-        <h3>Skills:</h3><br>
-        <ul list-style-type="disc">
-            <li>JAVA</li>
-            <li>CSS</li>
-            <li>HTML</li>
-            <li>PYTHON</li>
-            
-            </ul>
-    </section><hr>
+        <p>
+
+I'm Priyanshu Kumar, a 3rd-year B.Tech Computer Science and Engineering student at Galgotias University
+, with a strong interest in software development and problem-solving. <br>
+
+I enjoy working with Java, HTML, CSS, and Python, and I'm continuously improving my Data Structures and Algorithms skills through consistent LeetCode practice and my 100 Days DSA Challenge.<br>
+
+My goal is to become a skilled software developer by building practical projects, strengthening my problem-solving abilities, and learning modern technologies that help me create efficient and user-friendly solutions.
+ </p>
+    </Secton>
+    <section class="skills" id="skills">
+    <h2>My Skills</h2>
+
+    <div class="skills-container">
+        <span class="skill">Java</span>
+        <span class="skill">HTML</span>
+        <span class="skill">CSS</span>
+        <span class="skill">JavaScript</span>
+        <span class="skill">Python</span>
+        <span class="skill">Git</span>
+        <span class="skill">GitHub</span>
+        <span class="skill">Data Structures & Algorithms</span>
+        <span class="skill">MongoDB</span>
+    </div>
+</section><hr>
     <section id="projects">
-        Projects:<Br>
+        <h2>Projects:</h2><Br>
         <ul><li>Visit my Github --> <a href="https://github.com/priyanshu007-pk">GitHub</a> </li></ul>
-        
-    To-Do App: I have worked in creating To - do(Html,css).It is created by using css and apis and css.</section><hr>
+        <div id="proj-card">
+        <div class="card">
+         <h3>Pet Adoption site</h3>
+         <p>A user-friendly Pet Adoption Website designed to help people discover and adopt pets in need of a loving home. The platform showcases available pets with essential details such as breed, age, and location, making the adoption process easier and more accessible.
+            <br>
+
+The website focuses on a clean, responsive, and engaging interface, allowing users to explore pets, learn about adoption, and connect with the right pet. It aims to promote responsible pet adoption and help more animals find caring families.</p>
+        </div>
+        <div class="card">
+            <h3>To Do Application</h3>
+            <p>A simple and responsive To-Do Application designed to help users organize and manage their daily tasks efficiently. Users can add, complete, and delete tasks with an easy-to-use interface.
+          <br>
+The application uses HTML, CSS, and JavaScript with local storage to save tasks, ensuring that the data remains available even after refreshing the page.</p>
+        </div>
+        <div class="card">
+            <h3>Style Sense App</h3>
+            <p>StyleSense is an AI-powered fashion recommendation application that analyzes a user’s photo and suggests outfits that best match their appearance.
+           <br>
+The app provides personalized clothing recommendations and helps users discover similar designs available on popular shopping platforms such as Flipkart and Meesho, making it easier to turn AI-generated fashion suggestions into real purchases.
+<br>
+The goal of StyleSense is to combine AI, personalization, and e-commerce to create a smarter and more convenient fashion discovery experience.</p>
+        </div>
+        </div>
+    </section><hr>
     
     <section id="contact">
         <h3>Contact Me:</h3>
@@ -81,6 +112,7 @@
             <li><a href="https://www.linkedin.com/in/priyanshu-kumar-7b2515318/">LinkedIn</a></li>
         </ul>
     </section>
+    </div>
     </div>
 </body>
 </html>
