@@ -3,31 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
     <header>
-        <nav class="navbar">
+        <nav class="navbar" >
 
-            <a href="#" class="logo">DevProfile</a>
+            <a href="#body-content" class="logo">DevProfile</a>
 
             <ul class="nav-links">
-                <li>
-                   <button id="btn"> <a href="#about">About</a></button>
-                </li>
-
-                <li>
-                    <button id="btn"><a href="#skills">Skills</a></button>
-                </li>
-
-                <li>
-                   <button id="btn"> <a href="#projects">Projects</a></button>
-                </li>
-
-                <li>
-                  <button id="btn">  <a href="#contact">Contact</a></button>
-                </li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li> 
             </ul>
         </nav>
     </header>
@@ -49,7 +39,7 @@
   
     <div class="section">
     <Secton id="about">
-        <h3>About:</h3>
+        <h2>About</h2>
         <p>
 
 I'm Priyanshu Kumar, a 3rd-year B.Tech Computer Science and Engineering student at Galgotias University
@@ -60,6 +50,24 @@ I enjoy working with Java, HTML, CSS, and Python, and I'm continuously improving
 My goal is to become a skilled software developer by building practical projects, strengthening my problem-solving abilities, and learning modern technologies that help me create efficient and user-friendly solutions.
  </p>
     </Secton>
+    <section id="education">
+        <h2>Education</h2>
+        <div class="ed-item">
+        <div class="education-item">
+    <span>B-Tech CSE 2024-28</span>
+    <span>7.7cgpa</span>
+</div>
+    <div class="education-item">
+    <span>12th Grade</span>
+    <span>79.8%</span>
+</div>
+
+<div class="education-item">
+    <span>10th Grade</span>
+    <span>90%</span>
+</div>
+</div>
+</section>
     <section class="skills" id="skills">
     <h2>My Skills</h2>
 
@@ -72,14 +80,14 @@ My goal is to become a skilled software developer by building practical projects
         <span class="skill">Git</span>
         <span class="skill">GitHub</span>
         <span class="skill">Data Structures & Algorithms</span>
-        <span class="skill">MongoDB</span>
+       
     </div>
-</section><hr>
+</section>
     <section id="projects">
-        <h2>Projects:</h2><Br>
+        <h2>Projects</h2><Br>
         <ul><li>Visit my Github --> <a href="https://github.com/priyanshu007-pk">GitHub</a> </li></ul>
         <div id="proj-card">
-        <div class="card">
+        <div class="card"> 
          <h3>Pet Adoption site</h3>
          <p>A user-friendly Pet Adoption Website designed to help people discover and adopt pets in need of a loving home. The platform showcases available pets with essential details such as breed, age, and location, making the adoption process easier and more accessible.
             <br>
@@ -101,16 +109,33 @@ The app provides personalized clothing recommendations and helps users discover 
 The goal of StyleSense is to combine AI, personalization, and e-commerce to create a smarter and more convenient fashion discovery experience.</p>
         </div>
         </div>
-    </section><hr>
+    </section>
     
-    <section id="contact">
-        <h3>Contact Me:</h3>
-        <ul>
-            <li>Mob - 6207778226</li>
-            <li>Email- priyanshukumar@4491@gamil.com
-            </li>
-            <li><a href="https://www.linkedin.com/in/priyanshu-kumar-7b2515318/">LinkedIn</a></li>
-        </ul>
+   
+    <section class="contact" id="contact">
+      <h2>Contact Me</h2>
+      <li><p>phone - 9508542841</p></li>
+      <li><p>Email - priyanshu7778226@gmail.com</p></li>
+     <p>visit my <a href="https://github.com/priyanshu007-pk">GitHub</a> Profile.</p>
+
+      <p>visit my  <a href="https://www.linkedin.com/in/priyanshu-kumar-7b2515318/">LinkedIn</a> profile.</p>
+
+    <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Enter your name">
+
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter your email">
+
+        <label for="message">Message</label>
+        <textarea id="message" rows="5" placeholder="Enter your message"></textarea>
+
+        <button class="submit" type="submit">Submit</button>
+    </form>
+
+        
+            
+        
     </section>
     </div>
     </div>
