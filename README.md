@@ -98,7 +98,7 @@ The website is designed to work across different screen sizes:
 
 ## 🔗 Live Demo
 
-Live Portfolio: Add your deployed portfolio link here.
+Live Portfolio:  https://priyanshu007-pk.github.io/Priyanshu_Portfolio/
 
 ## 📂 Repository
 
